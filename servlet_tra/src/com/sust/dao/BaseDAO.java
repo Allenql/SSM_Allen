@@ -5,7 +5,7 @@ import com.sust.util.JdbcTemplate;
 
 public class BaseDAO {
 
-    public static int pageNorm = 3;
+//     public static int pageNorm = 3;
     private JdbcTemplate jdbcTemplate = new JdbcTemplate();
 
     public JdbcTemplate getJdbcTemplate() {
